@@ -1,0 +1,13 @@
+body{
+    background-color: antiquewhite;
+    position: relative;
+}
+h1{
+    margin-left: 1%;
+    color: rgb(31, 85, 37);
+    
+}
+#navegador{
+    align-items: center;
+
+}
