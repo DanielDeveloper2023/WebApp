@@ -1,0 +1,153 @@
+.nav-wrapper {
+
+    background-color: rgb(50, 90, 169);
+
+
+
+}
+
+nav {
+    height: 150px;
+}
+
+#nav-mobile {
+    margin-left: 2%;
+    margin-top: -4%;
+}
+
+#img-tcell {
+    height: 100px;
+    margin-top: 1%;
+    margin-left: 90%;
+}
+
+strong {
+    position: relative;
+    margin-left: 83%;
+    bottom: 1%;
+    color: aliceblue;
+    font: bold 30px/1 arial;
+    text-transform: uppercase;
+    
+    
+       
+}
+
+#panel {
+
+    width: 1800px;
+    height: 1800px;
+    border-style: ridge;
+    background-color: rgb(111, 135, 172);
+    margin: 0 auto;
+    opacity: 0.8;
+    margin-top: 2%;
+    border-radius: 1%;
+    margin-bottom: 3%;
+}
+
+h1 {
+    margin-left: 2%;
+    font: bold 80px/1 arial;
+    text-transform: uppercase;
+    color: rgb(74, 100, 143);
+    text-shadow: 0 2px 0 #2b2a27,
+        0 4px 0 #2b2a27,
+        0 6px 0 #2b2a27,
+        0 8px 0 #2b2a27,
+        0 10px 0 #2b2a27,
+        0 12px 0 #2b2a27;
+}
+
+#padre{
+    
+    position: relative;
+    margin-top: 5%;
+    margin-left: 8%;
+   
+   
+    
+}
+
+#input1 {
+  
+    display: inline-block;
+    width: 300px;
+    height: 80px;
+    background-color: rgb(238, 231, 231);
+    opacity: 0.6;
+    border-radius: 1%;
+    border-style: outset; 
+    border-width: 3px;
+    margin-right: 8%;
+
+
+
+
+}
+
+#input2 {
+   
+    display: inline-block;
+    width: 300px;
+    height: 80px;
+    background-color: rgb(238, 231, 231);
+    opacity: 0.6;
+    border-radius: 1%;
+    border-style: outset; 
+    border-width: 3px;
+
+
+
+
+}
+#check{
+    position: relative;
+    margin-left: 60%;
+    margin-top: -5%;
+}
+
+#text-area{
+  
+    width: 400px ;
+    height: 200px;
+    position: relative;
+    margin-left: 8%;
+    margin-top: 2%;
+    
+}
+textarea{
+    background-color: azure;
+    height: 50px;
+}
+#text{
+    font-size: 20px;
+    color: white;
+}
+
+#inputs {
+    position: relative;
+    margin-top: 5%;
+    width: 300px;
+    height: 80px;
+    background-color: rgb(238, 231, 231);
+    margin-left: 78%;
+    opacity: 0.6;
+    border-radius: 1%;
+    border-style: outset; 
+    border-width: 4px;
+}
+
+#icon_prefix {
+    width: 200px;
+}
+
+#search {
+
+    width: 200px;
+    margin-left: 10%;
+    margin-top: 5%;
+    position: relative;
+
+
+}

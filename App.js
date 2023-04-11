@@ -1,31 +1,44 @@
 const express = require('express');
-const hbs = require("hbs");
 require("dotenv").config();
+const hbs = require("hbs");
 const app = express();
+
 
 const port = process.env.port;
 //handlerbars
-app.set('view engine','hbs');
-hbs.registerPartials(__dirname + "/views/partials");
+app.set('view engine', 'hbs');
+hbs.registerPartials(__dirname + '/views/partials',function (error) {});
+
+
+
+app.use(express.static("public"));
+
 
 //Servir contenido esdtatico
 
 app.use(express.static('public'));
 
-
-
 app.get('/', function (req, res) {
     res.render('home',{
-        nombre: "Daniel Rodriguez",
-        titulo: "Tcell CR"
+        title: 'Tcell CR'
     });
 });
 
 app.get('/logueo', function (req, res) {
-    res.sendFile(__dirname + '/public/logueo.html')
+    res.render('logueo');
 });
-app.get('*', function (req, res) {
-    res.send('404 Pague not found')
+
+app.get('/factura', function (req, res) {
+
+    const date = new Date();
+    const fullYear =  date.toLocaleDateString('es-cr');
+    res.render('factura',{
+        date: fullYear
+    });
+});
+
+app.get('/articles', function (req, res) {
+    res.render('articles');
 })
 
 
